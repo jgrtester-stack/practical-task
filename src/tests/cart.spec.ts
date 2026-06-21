@@ -1,9 +1,6 @@
 /**
  * Section C – Shopping Cart
  * Tags: @cart @smoke
- *
- * addProductsToCart helper builds cart state fast (no navigation between items).
- * Each test is fully independent — starts with an empty cart (fresh context).
  */
 import { test, expect } from '../fixtures/auth.fixture';
 import { addProductsToCart } from '../helpers/cart.helper';
