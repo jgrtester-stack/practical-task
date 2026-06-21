@@ -1,9 +1,6 @@
 /**
  * Section B – Product Inventory
  * Tags: @inventory @smoke
- *
- * All tests use inventoryPage (which depends on loggedIn) — UI login.
- * beforeEach navigates to /inventory.html for a clean start.
  */
 import { test, expect } from '../fixtures/auth.fixture';
 import { PRODUCTS, PRODUCT_DETAILS } from '../utils/test-data';
