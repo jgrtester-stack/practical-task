@@ -1,9 +1,6 @@
 /**
  * Section A – Authentication
  * Tags: @auth @negative
- *
- * Tests the login form directly — no fixture-based auth injection.
- * loginPage uses the raw unauthenticated page.
  * Scenario 2 fails on purpose, error_user that supposed to mimmick failed login - logs in successfully.
  */
 import { test, expect } from '../fixtures/auth.fixture';
