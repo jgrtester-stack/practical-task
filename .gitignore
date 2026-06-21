@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Playwright outputs
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+
+# Saved authentication state — contains session tokens, never commit
+.auth/
+
+# Environment files — never commit real credentials, to be used, prepared for possible future Jenkins integration
+.env
+.env.local
+.env.*.local
