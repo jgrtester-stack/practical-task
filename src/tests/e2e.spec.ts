@@ -1,12 +1,6 @@
 /**
  * Section F – End-to-End Composite Journey
  * Tags: @regression @e2e
- *
- * Scenario 18 intentionally starts unauthenticated and performs a full UI login
- * as the first step — this IS part of the scenario under test.
- * Page objects are created inline from the base `page` fixture so the loggedIn
- * fixture is never triggered and no localStorage injection occurs.
- * Each intermediate state has an explicit assertion per the scenario brief.
  */
 import { test, expect } from '../fixtures/auth.fixture';
 import { InventoryPage } from '../pages/InventoryPage';
