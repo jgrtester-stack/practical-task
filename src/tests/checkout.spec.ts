@@ -1,12 +1,6 @@
 /**
  * Section D – Checkout Flow
  * Tags: @checkout @smoke @negative
- *
- * beforeEach adds 2 products and navigates to checkout step 1, giving every
- * test a consistent starting state without repeating setup logic.
- *
- * Scenario 14 is parameterised with a for-of loop over three validation cases —
- * produces three independent test entries in the reporter.
  */
 import { test, expect } from '../fixtures/auth.fixture';
 import { addProductsToCart } from '../helpers/cart.helper';
